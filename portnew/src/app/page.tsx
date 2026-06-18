@@ -1,65 +1,124 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
+    <main className="container">
+      <section className="hero">
+        <span className="tag">CIÊNCIA DA COMPUTAÇÃO • IA • DESENVOLVIMENTO</span>
+
+        <h1>
+          Olá, eu sou <span>Quézia Costa</span>
+        </h1>
+
+        <p>
+          Desenvolvedora, pesquisadora e futura cientista de dados.
+          Transformando problemas reais em soluções digitais através da
+          programação, inteligência artificial e inovação.
+        </p>
+
+        <div className="buttons">
+          <a href="#projetos">Ver Projetos</a>
+          <a href="#contato" className="secondary">
+            Falar Comigo
           </a>
         </div>
-      </main>
-    </div>
+      </section>
+
+      <section className="about">
+        <h2>Sobre Mim</h2>
+
+        <p>
+          Sou estudante de Ciência da Computação, apaixonada por tecnologia,
+          inteligência artificial e desenvolvimento de software.
+        </p>
+
+        <p>
+          Atualmente participo de projetos envolvendo IA e pesquisa acadêmica,
+          além de desenvolver aplicações web, mobile e sistemas utilizando Java,
+          Python, JavaScript e TypeScript.
+        </p>
+      </section>
+
+      <section className="skills">
+        <h2>Tecnologias</h2>
+
+        <div className="skillsGrid">
+          <div>Java</div>
+          <div>Python</div>
+          <div>JavaScript</div>
+          <div>TypeScript</div>
+          <div>HTML</div>
+          <div>CSS</div>
+          <div>Angular</div>
+          <div>.NET</div>
+          <div>Git</div>
+          <div>Node.js</div>
+        </div>
+      </section>
+
+      <section id="projetos" className="projects">
+        <h2>Projetos</h2>
+
+        <div className="cards">
+          <article className="card">
+            <h3>Pig Me Up</h3>
+            <p>
+              Aplicação de organização financeira pessoal focada em simplicidade
+              e planejamento financeiro.
+            </p>
+          </article>
+
+          <article className="card">
+            <h3>Pesquisa em Dislexia</h3>
+            <p>
+              Desenvolvimento de soluções tecnológicas voltadas para pessoas
+              com dislexia.
+            </p>
+          </article>
+
+          <article className="card">
+            <h3>Labirinto da Autoestima</h3>
+            <p>
+              Jogo em Java com foco em autoconfiança e tomada de decisões.
+            </p>
+          </article>
+
+          <article className="card">
+            <h3>Sites e Aplicações Web</h3>
+            <p>
+              Desenvolvimento de interfaces modernas utilizando tecnologias
+              front-end atuais.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section className="vision">
+        <h2>Meu Objetivo</h2>
+
+        <p>
+          Quero construir soluções que impactem pessoas de verdade, unindo
+          desenvolvimento de software, inteligência artificial e ciência de
+          dados para resolver problemas reais.
+        </p>
+      </section>
+
+      <section id="contato" className="contact">
+        <h2>Vamos Conversar?</h2>
+
+        <form>
+          <input type="text" placeholder="Seu nome" />
+
+          <input type="email" placeholder="Seu e-mail" />
+
+          <textarea
+            rows="6"
+            placeholder="Escreva sua mensagem..."
+          ></textarea>
+
+          <button type="submit">
+            Enviar Mensagem
+          </button>
+        </form>
+      </section>
+    </main>
   );
 }
