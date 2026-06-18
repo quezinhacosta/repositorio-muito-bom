@@ -5,7 +5,7 @@ export default function Home() {
         <span className="tag">CIÊNCIA DA COMPUTAÇÃO • IA • DESENVOLVIMENTO</span>
 
         <h1>
-          Olá, eu sou <span>Quézia Costa</span>
+          Olá, eu sou <span>Quezia Costa</span>
         </h1>
 
         <p>
