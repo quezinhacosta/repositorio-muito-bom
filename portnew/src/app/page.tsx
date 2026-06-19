@@ -55,37 +55,45 @@ export default function Home() {
       </section>
 
       <section id="projetos" className="projects">
-        <h2>Projetos</h2>
+        <h2>Principais projetos</h2>
 
         <div className="cards">
           <article className="card">
-            <h3>Pig Me Up</h3>
+            <h3>Jarvis</h3>
             <p>
-              Aplicação de organização financeira pessoal focada em simplicidade
-              e planejamento financeiro.
+              Assistente virtual com inteligência artificial, capaz de realizar
+              tarefas, dar feedbacks e interagir com o usuário. 
             </p>
           </article>
 
           <article className="card">
-            <h3>Pesquisa em Dislexia</h3>
+            <h3>Derivoz</h3>
             <p>
-              Desenvolvimento de soluções tecnológicas voltadas para pessoas
-              com dislexia.
+              plicativo educacional voltado para crianças com dislexia, desenvolvido durante minha Iniciação Científica na Universidade Católica de Pernambuco
+               <a href="https://github.com/quezinhacosta/Derivoz" target="_blank" rel="noopener noreferrer">
+                  link do repositorio
+                </a>
             </p>
           </article>
 
           <article className="card">
-            <h3>Labirinto da Autoestima</h3>
+            <h3>Modelo de Classificação de Dificuldade de Palavras</h3>
             <p>
-              Jogo em Java com foco em autoconfiança e tomada de decisões.
+              Algoritmo em Python capaz de classificar palavras da língua portuguesa de acordo com seu nível de dificuldade, com base em métricas linguísticas.
+              <a href="https://github.com/quezinhacosta/algoritmo-analisador-palavras" target="_blank" rel="noopener noreferrer">
+                  link do repositorio
+                </a>
             </p>
           </article>
 
           <article className="card">
-            <h3>Sites e Aplicações Web</h3>
+            <h3>Projeto Padawan ON</h3>
             <p>
-              Desenvolvimento de interfaces modernas utilizando tecnologias
-              front-end atuais.
+                O projeto Padawan ON é uma aplicação web que possui interface front-end, estrutura para back-end e banco de dados. Basicamente, um sistema completo.
+                Ele foi criado com foco em aprendizado, organização de código e boas práticas de desenvolvimento. Além disso, tem como objetivo simplificar os participantes do projeto, tornando todo o processo de adesão e organização dos integrantes automizado.
+                <a href="https://github.com/quezinhacosta/padawan-projeto" target="_blank" rel="noopener noreferrer">
+                  link do repositorio
+                </a>
             </p>
           </article>
         </div>
@@ -96,8 +104,7 @@ export default function Home() {
 
         <p>
           Quero construir soluções que impactem pessoas de verdade, unindo
-          desenvolvimento de software, inteligência artificial e ciência de
-          dados para resolver problemas reais.
+          desenvolvimento e inteligência artificia para problemáticas do cotidiano. Sou apaixonada por desenvolver soluções verdadeiramente uteis. 
         </p>
       </section>
 
