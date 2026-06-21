@@ -12,8 +12,8 @@ export default function Home() {
         </h1>
 
         <p>
-          Desenvolvedora, pesquisadora e futura cientista de dados.
-          Transformando problemas reais em soluções digitais através da
+          Desenvolvedora, pesquisadora e futura cientista da computação.
+          Transformando o cotidiano em soluções digitais através da
           programação, inteligência artificial e inovação.
         </p>
 
@@ -21,12 +21,11 @@ export default function Home() {
           <a href="#projetos">Ver Projetos</a>
 
           <a href="#contato" className="secondary">
-            Falar Comigo
+            
           </a>
         </div>
       </section>
 
-      {/* SOBRE */}
       <section className="about">
         <h2>Sobre Mim</h2>
 
@@ -36,9 +35,9 @@ export default function Home() {
         </p>
 
         <p>
-          Atualmente participo de projetos envolvendo IA e pesquisa acadêmica,
-          além de desenvolver aplicações web, mobile e sistemas utilizando
-          Java, Python, JavaScript e TypeScript.
+          Atualmente participo de projetos envolvendo IA e pesquisas acadêmicas,
+          além de desenvolver aplicações web, mobile e sistemas utilizando linguagens 
+          como python. 
         </p>
       </section>
       <section className="skills">
@@ -69,6 +68,12 @@ export default function Home() {
               Assistente virtual com inteligência artificial capaz de realizar
               tarefas, fornecer feedbacks e interagir com o usuário.
             </p>
+            <a 
+              href="https://github.com/quezinhacosta/JarvisIA"
+              target="_blank"
+              rel="noopener noreferrer">
+              Repositório
+            </a>
           </article>
 
           <article className="card">
@@ -90,7 +95,7 @@ export default function Home() {
 
           <article className="card">
             <h3>
-              Modelo de Classificação de Dificuldade de Palavras
+              Modelo de classificação de dificuldade de palavras
             </h3>
 
             <p>
@@ -108,7 +113,7 @@ export default function Home() {
           </article>
 
           <article className="card">
-            <h3>Projeto Padawan ON</h3>
+            <h3>Projeto 'Padawan ON'</h3>
 
             <p>
               Aplicação web completa com front-end, back-end e banco de dados,
@@ -139,7 +144,7 @@ export default function Home() {
       </section>
 
       <section id="experiencias" className="experience">
-        <h2>Experiências e Vivências</h2>
+        <h2>Experiências reais</h2>
 
         <div className="timeline">
 
@@ -166,7 +171,7 @@ export default function Home() {
 
             <p>
               Atuação no desenvolvimento de soluções envolvendo inteligência
-              artificial, automação, telemetria e aplicações voltadas para
+              artificial, automação, aplicações voltadas para
               inovação tecnológica.
             </p>
           </article>
@@ -190,10 +195,10 @@ export default function Home() {
               Hackathon
             </span>
 
-            <h3>Desenvolvimento Colaborativo</h3>
+            <h3>Desenvolvimento colaborativo</h3>
 
             <p>
-              Participação em hackathon com foco em resolução de problemas,
+              Participei de hackathons com foco em resolução de problemas,
               trabalho em equipe, desenvolvimento rápido de soluções e
               inovação tecnológica.
             </p>
@@ -219,14 +224,14 @@ export default function Home() {
           </a>
 
           <a
-            href="https://linkedin.com/in/seu-linkedin"
+            href="https://www.linkedin.com/in/quezia-costa-5195342b3/"
             target="_blank"
             rel="noopener noreferrer"
           >
             LinkedIn
           </a>
 
-          <a href="mailto:seuemail@gmail.com">
+          <a href="mailto:quezia.costa@unicap.br">
             E-mail
           </a>
         </div>
