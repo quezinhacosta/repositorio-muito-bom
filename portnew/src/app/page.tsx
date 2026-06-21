@@ -203,6 +203,19 @@ export default function Home() {
               inovação tecnológica.
             </p>
           </article>
+          <article className="experienceCard">
+            <span className="experienceDate">
+              Monitoria
+            </span>
+
+            <h3>Monitora de Cálculo 1</h3>
+
+            <p>
+              Fui monitoria de cálculo 1 para alunos do primeiro periodo de ciências da computação. Ministrei aulas focadas no 
+              desenvolvimento e explicação de atividades sobre assuntos como matemática básica, limites
+              e derivadas.
+            </p>
+          </article>
 
         </div>
       </section>
