@@ -1,8 +1,11 @@
 export default function Home() {
   return (
     <main className="container">
+      {/* HERO */}
       <section className="hero">
-        <span className="tag">CIÊNCIA DA COMPUTAÇÃO • IA • DESENVOLVIMENTO</span>
+        <span className="tag">
+          CIÊNCIA DA COMPUTAÇÃO • IA • DESENVOLVIMENTO
+        </span>
 
         <h1>
           Olá, eu sou <span>Quezia Costa</span>
@@ -16,12 +19,14 @@ export default function Home() {
 
         <div className="buttons">
           <a href="#projetos">Ver Projetos</a>
+
           <a href="#contato" className="secondary">
             Falar Comigo
           </a>
         </div>
       </section>
 
+      {/* SOBRE */}
       <section className="about">
         <h2>Sobre Mim</h2>
 
@@ -32,11 +37,10 @@ export default function Home() {
 
         <p>
           Atualmente participo de projetos envolvendo IA e pesquisa acadêmica,
-          além de desenvolver aplicações web, mobile e sistemas utilizando Java,
-          Python, JavaScript e TypeScript.
+          além de desenvolver aplicações web, mobile e sistemas utilizando
+          Java, Python, JavaScript e TypeScript.
         </p>
       </section>
-
       <section className="skills">
         <h2>Tecnologias</h2>
 
@@ -55,46 +59,69 @@ export default function Home() {
       </section>
 
       <section id="projetos" className="projects">
-        <h2>Principais projetos</h2>
+        <h2>Principais Projetos</h2>
 
         <div className="cards">
           <article className="card">
             <h3>Jarvis</h3>
+
             <p>
-              Assistente virtual com inteligência artificial, capaz de realizar
-              tarefas, dar feedbacks e interagir com o usuário. 
+              Assistente virtual com inteligência artificial capaz de realizar
+              tarefas, fornecer feedbacks e interagir com o usuário.
             </p>
           </article>
 
           <article className="card">
             <h3>Derivoz</h3>
+
             <p>
-              plicativo educacional voltado para crianças com dislexia, desenvolvido durante minha Iniciação Científica na Universidade Católica de Pernambuco
-               <a href="https://github.com/quezinhacosta/Derivoz" target="_blank" rel="noopener noreferrer">
-                  link do repositorio
-                </a>
+              Aplicativo educacional voltado para crianças com dislexia,
+              desenvolvido durante minha iniciação científica.
             </p>
+
+            <a
+              href="https://github.com/quezinhacosta/Derivoz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Repositório
+            </a>
           </article>
 
           <article className="card">
-            <h3>Modelo de Classificação de Dificuldade de Palavras</h3>
+            <h3>
+              Modelo de Classificação de Dificuldade de Palavras
+            </h3>
+
             <p>
-              Algoritmo em Python capaz de classificar palavras da língua portuguesa de acordo com seu nível de dificuldade, com base em métricas linguísticas.
-              <a href="https://github.com/quezinhacosta/algoritmo-analisador-palavras" target="_blank" rel="noopener noreferrer">
-                  link do repositorio
-                </a>
+              Algoritmo em Python capaz de classificar palavras da língua
+              portuguesa de acordo com seu nível de dificuldade.
             </p>
+
+            <a
+              href="https://github.com/quezinhacosta/algoritmo-analisador-palavras"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Repositório
+            </a>
           </article>
 
           <article className="card">
             <h3>Projeto Padawan ON</h3>
+
             <p>
-                O projeto Padawan ON é uma aplicação web que possui interface front-end, estrutura para back-end e banco de dados. Basicamente, um sistema completo.
-                Ele foi criado com foco em aprendizado, organização de código e boas práticas de desenvolvimento. Além disso, tem como objetivo simplificar os participantes do projeto, tornando todo o processo de adesão e organização dos integrantes automizado.
-                <a href="https://github.com/quezinhacosta/padawan-projeto" target="_blank" rel="noopener noreferrer">
-                  link do repositorio
-                </a>
+              Aplicação web completa com front-end, back-end e banco de dados,
+              desenvolvida com foco em boas práticas e organização de equipes.
             </p>
+
+            <a
+              href="https://github.com/quezinhacosta/padawan-projeto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Repositório
+            </a>
           </article>
         </div>
       </section>
@@ -104,28 +131,110 @@ export default function Home() {
 
         <p>
           Quero construir soluções que impactem pessoas de verdade, unindo
-          desenvolvimento e inteligência artificia para problemáticas do cotidiano. Sou apaixonada por desenvolver soluções verdadeiramente uteis. 
+          desenvolvimento de software e inteligência artificial para resolver
+          problemas do cotidiano. 
+          Sou apaixonada por criar tecnologias
+          verdadeiramente úteis.
         </p>
       </section>
 
-      <section id="contato" className="contact">
-        <h2>Vamos Conversar?</h2>
+      <section id="experiencias" className="experience">
+        <h2>Experiências e Vivências</h2>
 
-        <form>
-          <input type="text" placeholder="Seu nome" />
+        <div className="timeline">
 
-          <input type="email" placeholder="Seu e-mail" />
+          <article className="experienceCard">
+            <span className="experienceDate">
+              Iniciação Científica
+            </span>
 
-          <textarea
-            rows="6"
-            placeholder="Escreva sua mensagem..."
-          ></textarea>
+            <h3>Pesquisa em Dislexia e Alfabetização</h3>
 
-          <button type="submit">
-            Enviar Mensagem
-          </button>
-        </form>
+            <p>
+              Desenvolvimento de aplicações educacionais voltadas para crianças
+              com dislexia, com foco em apoiar o processo de alfabetização
+              através da tecnologia e da inteligência artificial.
+            </p>
+          </article>
+
+          <article className="experienceCard">
+            <span className="experienceDate">
+              Estágio
+            </span>
+
+            <h3>Centro de Inteligência Artificial da FASA</h3>
+
+            <p>
+              Atuação no desenvolvimento de soluções envolvendo inteligência
+              artificial, automação, telemetria e aplicações voltadas para
+              inovação tecnológica.
+            </p>
+          </article>
+
+          <article className="experienceCard">
+            <span className="experienceDate">
+              Semana da Computação
+            </span>
+
+            <h3>Palestrante na UNICAP</h3>
+
+            <p>
+              Ministrou duas palestras sobre desenvolvimento de projetos web,
+              compartilhando conhecimentos de HTML, CSS, desenvolvimento
+              front-end e experiências práticas da graduação.
+            </p>
+          </article>
+
+          <article className="experienceCard">
+            <span className="experienceDate">
+              Hackathon
+            </span>
+
+            <h3>Desenvolvimento Colaborativo</h3>
+
+            <p>
+              Participação em hackathon com foco em resolução de problemas,
+              trabalho em equipe, desenvolvimento rápido de soluções e
+              inovação tecnológica.
+            </p>
+          </article>
+
+        </div>
       </section>
+
+      <footer className="footer">
+        <h3>Quezia Costa</h3>
+
+        <p>
+          Desenvolvedora Full Stack • Inteligência Artificial • Ciência de Dados
+        </p>
+
+        <div className="socials">
+          <a
+            href="https://github.com/quezinhacosta"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://linkedin.com/in/seu-linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a href="mailto:seuemail@gmail.com">
+            E-mail
+          </a>
+        </div>
+
+        <span>
+          © 2026 Quezia Costa. Todos os direitos reservados.
+        </span>
+      </footer>
     </main>
   );
 }
