@@ -20,8 +20,8 @@ export default function Home() {
         <div className="buttons">
           <a href="#projetos">Ver Projetos</a>
 
-          <a href="#contato" className="secondary">
-            
+          <a href="#experiencias" className="secondary">
+            Experiências reais
           </a>
         </div>
       </section>
