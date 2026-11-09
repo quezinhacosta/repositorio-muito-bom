@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Quezia's • Interactive AI & Full-Stack Portfolio
 
-## Getting Started
+> Portfólio web de alta performance, não-tradicional e altamente interativo desenvolvido para **Quezia Costa** — Engenheira de Inteligência Artificial, Pesquisadora em Machine Learning (PIBIC) e Desenvolvedora Full-Stack.
 
-First, run the development server:
+---
+
+## 🎨 Linguagem Visual & Design System
+
+Inspirado na estética moderna e refinada do **TeamCamp.app** com toques elegantes de **Material/Google UI**:
+- **Canvas Base:** Off-white suave (`#F8F9FA`) com malha arquitetural de pontos (dot grid reativa à proximidade do mouse).
+- **Cards & Módulos:** Branco puro (`#FFFFFF`) com bordas sutis (`border: 1px solid rgba(226, 232, 240, 0.8)`), cantos arredondados generosos (`border-radius: 16px` a `24px`) e sombras difusas para sensação tridimensional de profundidade.
+- **Cores de Acento:** Harmonização entre **Branco**, **Azul Moderno** (`#2563EB`) e **Rosa Vibrante** (`#EC4899`).
+- **Identity:** Título da aba padronizado para `Quezia's`, com foco puramente em dados, métricas, código, pesquisas e conexões reais (sem fotos pessoais).
+
+---
+
+## ⚡ Efeitos Criativos & Interatividade
+
+1. **Interactive Mesh Gradient Background:**
+   - Canvas com interpolação suave (lerp) que reage em tempo real às coordenadas do mouse (`clientX`, `clientY`) com gravidade sutil e orbs pastéis.
+2. **3D Tilt Cards com Iluminação Dinâmica:**
+   - Efeito de inclinação tridimensional (`perspective(1000px) rotateX/rotateY`) com spot radial de luz que segue o cursor e elevação física no hover.
+3. **Smooth Scroll com Inércia:**
+   - Integração com **Lenis Scroll** para rolagem com peso e inércia orgânica.
+4. **Live GitHub Telemetry (Terminal & API):**
+   - Conexão em tempo real com `https://api.github.com/users/quezinhacosta/events/public`.
+   - Card interativo estilo terminal retro-moderno exibindo os últimos commits com hashes, mensagens, branches e horários relativos.
+5. **Island Nav Flutuante:**
+   - Barra em ilha com *glassmorphism* (`backdrop-filter: blur(14px)`), indicador ativo em transição com gradiente Azul/Rosa e botão de **cópia de e-mail com 1 clique** que dispara animação e efeito de confetti.
+6. **Bento Grid de Habilidades (Tech Stack):**
+   - Organização modular categorizada (*Artificial Intelligence & ML*, *Web & Full-Stack*, *DevOps & Cloud*) com badges dinâmicos e micro-animações.
+7. **Integração com LinkedIn:**
+   - Card dedicado com preview instantâneo da trajetória profissional e direcionamento com feedback tátil.
+
+---
+
+## 🛠️ Stack Tecnológica
+
+- **Framework:** [Next.js](https://nextjs.org/) (App Router, React 19)
+- **Linguagem:** TypeScript
+- **Estilização:** Tailwind CSS v4
+- **Física & Animações:** Framer Motion, Lenis Scroll (`lenis`)
+- **Efeitos de Partículas:** Canvas Confetti
+- **Ícones:** Lucide React & Vetores SVG customizados
+
+---
+
+## 🚀 Como Executar Localmente
+
+### Pré-requisitos
+- Node.js 18+ ou 20+
+- npm, pnpm ou yarn
+
+### Instalação e Execução
 
 ```bash
+# Entre na pasta do projeto
+cd portnew
+
+# Instale as dependências (se necessário)
+npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar o portfólio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build para Produção
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📬 Contato & Conexões
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **GitHub:** [@quezinhacosta](https://github.com/quezinhacosta)
+- **LinkedIn:** [Quezia Costa](https://www.linkedin.com/in/quezia-costa-5195342b3/)
+- **E-mail Institucional:** [quezia.costa@unicap.br](mailto:quezia.costa@unicap.br)
